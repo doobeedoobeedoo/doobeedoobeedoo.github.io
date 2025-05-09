@@ -139,6 +139,26 @@
       /* filter: invert(100%) brightness(200%) hue-rotate(0deg) drop-shadow(2px 2px 0px #ff00d8); */
     }
 
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .grid img {
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+      display: block;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -170,8 +190,20 @@
       Your company and employees of your stores all over the world will now pay the price for how you handled this situation, in very legal and non-violent ways.
       We don’t abuse animals, Berluti. We keep our hands to ourselves when demonstrating, Berluti. You treat all of the above with violence. It’s not a winning strategy.
       We’ll see you very soon.</h2>
- <br><Br><h4>BERLUTI: WE WILL NOT BACK DOWN UNTIL YOU ADOPT COMPANY-WIDE FUR-FREE POLICY IN WRITING. SURRENDER AND SUBMIT YOUR POLICY TO <b>action@caftusa.org</h4>
+ <br><Br><h4>BERLUTI: WE WILL NOT BACK DOWN UNTIL YOU ADOPT COMPANY-WIDE FUR-FREE POLICY IN WRITING. SURRENDER AND SUBMIT YOUR POLICY TO <b>surrender@caftusa.org</h4>
   <br><br>
+
+  <div class="grid">
+    <img src="fur farm 01.jpg" alt="Image 1">
+    <img src="fur farm 02.jpg" alt="Image 2">
+    <img src="fur farm 03.jpg" alt="Image 3">
+    <img src="fur farm 04.jpg" alt="Image 4">
+    <img src="fur farm 06.jpg" alt="Image 5">
+    <img src="fur farm 05.jpg" alt="Image 6">
+  </div>
+  
+  
+  <br><br><br>
 
   </footer>
 </div>
